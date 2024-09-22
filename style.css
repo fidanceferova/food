@@ -1,0 +1,958 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head .navbar ul {
+    display: flex;
+    padding:3%;
+}
+
+.head .navbar ul li {
+    list-style: none;
+    margin-left: 15px;
+    color: #2D2D2D;
+    font-family: Lato;
+    font-size: 1.25rem;
+    font-style: normal;
+    width:100px;
+    line-height: normal;
+   
+}
+
+.head .search {
+    width: 175px;
+
+}
+
+.head .search button {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.head .search button img {
+    margin-right: 10px;
+
+}
+
+.mexican {
+    width: 100%;
+    height: 39.75rem;
+    background-image: url("Backgroud\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mexican .container {
+    width: 600px;
+    text-align: center;
+}
+
+.mexican .container h1 {
+    color: white;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+
+}
+
+.mexican .container li {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%;
+    list-style: none;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+
+}
+
+.mexican .container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+.mexican .container button {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.9%;
+    background: #FE4A51;
+    padding: 10px;
+    border: none;
+    margin-top: 25px;
+
+}
+
+.food {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+
+.img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: -47%;
+    left: 10%;
+}
+
+.img .img-item {
+    width: 25%;
+}
+
+.img .img-item img {
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.content .popular {
+    width: 70%;
+
+}
+
+.content .popular .items {
+    display: flex;
+    margin: 10px;
+
+}
+
+
+.content .popular h2 {
+    font-size: 36px;
+    color: #2D2D2D;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150.9%;
+}
+
+.content .popular .lorem p {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+    margin: 5px;
+
+
+
+}
+
+.content .popular .lorem ul {
+    display: flex;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+
+
+
+}
+
+.content .popular .apple {
+    width: 60%;
+}
+
+.content .popular .photo_items2 {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.content .popular .apple .lorem li {
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+
+
+}
+
+.photo_items {
+    width: 80%;
+    background-image: url(Image\ \(2\).png);
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.content .popular .apple .lorem li img {
+    margin-right: 10px;
+
+}
+
+.content .forma .norma p {
+    color: #ece5e5;
+    font-family: Lato;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+}
+
+.content .norma ul {
+    display: flex;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.content .norma li {
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.photo_items2 {
+    width: 100%;
+    background-image: url(/Image\ \(3\).png);
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+}
+
+.content .hesab p {
+    color: white;
+    font-family: Lato;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+
+}
+
+.content .hesab ul {
+    display: flex;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%;
+    list-style: none;
+    padding: 10px;
+}
+
+.content .hesab li {
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+
+}
+
+.now {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.now .tck {
+    color: red;
+}
+
+.now button {
+    border: none;
+    background: none;
+}
+
+.now a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.form .numune {
+    width: 300px !important;
+    height: 100%;
+
+}
+
+
+
+.form .setir {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.form .setir img {
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+    /* margin: 23px auto ; */
+    border-radius: 50%;
+}
+
+.form .setir h3 {
+    color: #0f0f0f;
+    font-family: Playfair Display;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 100.9%;  */
+}
+
+.form .setir p {
+    color: rgba(45, 45, 45, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138.9%;
+    /* padding: 8%; */
+}
+
+.sebeke {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sebeke a {
+
+    padding: 15px;
+    width: 49.5%;
+    background: #DEDADA;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 3px;
+
+
+}
+
+.sebeke i {
+    margin-right: 3px;
+    color: red;
+
+}
+
+.sebeke .page-info {
+    display: flex;
+
+}
+.form{
+    /* background-color: red; */
+}
+.form .numune .foto {
+    width: 100%;
+    height: 266px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 20px 0;
+    background-image: url(/Image\ \(7\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .numune .foto h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    align-items: center;
+}
+
+.form .numune .foto .ders {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+
+}
+
+
+.referans {
+    background: #DEDADA;
+    width:100%;
+    padding-bottom: 20px;
+
+}
+
+.referans h1 {
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 163.9%;
+    align-items: center;
+    padding: 30px 0;
+
+
+}
+.referans .ref_items {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.referans .ref_items .email {
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+
+.referans .ref_items .email input {
+    background-color: #FFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+}
+
+
+.referans .ref_items .nan {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #FE4A51;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: ;
+}
+
+.referans .ref_items .nan  p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.meyve .formal {
+    display: flex;
+}
+
+.meyve .formal .tbt {
+    width: 160px;
+    height: 210px;
+    top: 1887px;
+    left: 135px;
+    background: #FFE5E6;
+    display: flex;
+
+}
+
+.meyve .formal .tbt img {
+    width: 130px;
+    height: 130px;
+    top: 1932px;
+    left: 160px;
+    display: flex;
+    
+}
+
+.meyve .formal .tbt .tebib h1 {
+    padding: 5%;
+    align-items: center;
+    color: #2D2D2D;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.9%;
+    padding: 30px;
+}
+
+.Latest.contenter {
+    display: flex;
+
+}
+
+.contenter .nem {
+    padding: 30px;
+    margin: 50px;
+    border: 2px solid red;
+    width: 70%;
+    display: flex;
+}
+
+.Latest .contenter .nem h2 {
+    width: 239px;
+    height: 42px;
+    flex-shrink: 0;
+    border: 2px solid forestgreen;
+    color: #2D2D2D;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+}
+
+.photo_itemsss {
+    background-image: url(/forma/Image\ \(8\).png);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 200px;
+    border: 2px solid blue;
+
+}
+
+.contenter .nem .norma p {
+    width: 218px;
+    height: 14.921px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+    border: 2px solid red;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.contenter .norma ul {
+    width: 90%;
+    color: white;
+    display: flex;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%;
+    list-style: none;
+    align-items: center;
+
+}
+
+.contenter .norma ul li img {
+    border: 2px solid hotpink;
+    width: 20%;
+    color: red;
+    margin-left: 5px;
+}
+
+.contenter .photo_itemss2 {
+    border: 2px solid red;
+    display: flex;
+    background-image: url(/forma/Image\ \(9\).png);
+    width: 270px;
+    height: 200px;
+}
+
+.contenter .nem .alma p {
+    width: 218px;
+    height: 14.921px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+    border: 2px solid red;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.contenter .alma ul {
+    color: white;
+    display: flex;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100.9%;
+    list-style: none;
+    align-items: center;
+    border: 2px solid hotpink;
+
+}
+
+.contenter .alma ul li img {
+    width: 20%;
+    color: red;
+    margin-left: 5px;
+}
+
+.Latest h1{
+ width: 239px;
+height: 42px;
+flex-shrink: 0;
+color: #2D2D2D;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.9%; 
+margin:3px;
+}
+
+.dessert{                   
+    width:70%;
+    padding:10px;
+    margin:10px;
+    display: flex;
+}
+.tasty_foto{
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 190px;
+    flex-shrink: 0;
+    background-image: url(/forma/Image\ \(8\).png);
+}
+
+.notes p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+    margin: 5px;
+}
+.notes ul{
+    display: flex;
+    font-family: Lato;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+}
+
+.notes  li{
+        align-items: center;
+        margin-left: 20px;
+        justify-content: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 8px;
+        font-style: normal;
+        weight:700%;
+        line-height:300%;
+        display:flex;
+}
+.notes li img{
+    /* width: 30%;  */
+     height: 20%;  
+    top: 19px;
+    left: 16px;
+ 
+ 
+}
+.tasty_foton{
+    border: 2px solid red;
+    width:300px;
+    height: 190px; 
+    background-image: url(/forma/Image\ \(8\).png);
+}
+
+.tasty_fotoo{
+    margin:50;
+    width: 280px;
+    height: 190px;
+    flex-shrink: 0;
+    background-image: url(/forma/Image\ \(15\).png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* yemek start */
+.yemek {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: none;
+}
+
+.yemek .foto-new {
+    height: 250px;
+    width: 20%;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.yemek .foto-new:nth-child(1) {
+    background-image: url(/foto/Image\ \(10\).png);
+}
+
+.yemek .foto-new:nth-child(2) {
+    background-image: url(/foto/Image\ \(11\).png);
+}
+
+.yemek .foto-new:nth-child(3) {
+    background-image: url(/foto/Image\ \(12\).png);
+}
+
+.yemek .foto-new:nth-child(4) {
+    background-image: url(/foto/Image\ \(13\).png);
+}
+
+.yemek .foto-new:nth-child(5) {
+    background-image: url(/foto/Image\ \(14\).png);
+}
+
+.fol {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 46%;
+}
+
+.fol .ldh-tsh {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254, 74, 81, 0.80);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fol .ldh-tsh {
+    width: 138px;
+    height: 138px;
+    flex-shrink: 0;
+
+}
+
+.fol .ldh-tsh p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.9%;
+
+}
+
+.fol .fotolar {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.9%;
+    padding-top: 5px;
+
+}
+/* yemek end */
+
+/* colop start */
+.kolograma{
+    width: 50%;
+    height: 100%;
+    margin:50px;
+    /* border:  2px solid yellowgreen; */
+   
+} 
+.colop  { 
+    display: flex
+
+}
+ .kolograma  h4{
+color: #2D2D2D;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.9%; 
+}
+.kolograma p{
+width: 180px;
+height: 95px;
+flex-shrink: 0;
+color:black;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 170.9%; 
+}
+.expres {
+    margin: 50px;
+    justify-content: space-between;
+}
+.expres h4{
+color: #2D2D2D;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.9%; 
+
+}
+
+.expres ul li{
+/* border: 2px solid burlywood; */
+color: rgba(45, 45, 45, 0.60);
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.9%; 
+
+}
+.expres ul li a{
+    text-decoration: none;
+    color: #2D2D2D;
+    line-height: 27px;
+    font-size: 15px;
+}
+ .desert{
+    margin: 50px;
+    
+ }
+ .desert h4{
+color: #2D2D2D;
+font-family: Playfair Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.9%; 
+
+ }
+ .desert ul li{
+    /* border: 2px solid burlywood; */
+    color: rgba(45, 45, 45, 0.60);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100.9%; 
+ }
+ .desert ul li a{
+    text-decoration: none;
+    color: #2D2D2D;
+    line-height: 27px;
+    font-size: 12px;
+ }
+ .narinc{
+    margin: 50px;
+ }
+ .narinc h4{
+    color: #2D2D2D;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%; 
+ }
+ .narinc p{
+width: 270px;
+height: 52px;
+flex-shrink: 0;
+color: #2D2D2D;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 170.9%;
+ }
+ .narinc .email{
+    width: 240px;
+    height: 33px;
+    flex-shrink: 0;
+    background-color: #DEDADA;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5px;
+}
+.narinc .email input{
+    width: 150px;
+    height: 33px;
+    background-color: #DEDADA;
+     border: none; 
+    outline: none;
+}
+.narinc .email a{
+    width: 75px;
+    padding: 5px 0px;
+    background-color: #FE4A51;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170.9%;
+    text-decoration: none;
+    text-align: center;
+}
